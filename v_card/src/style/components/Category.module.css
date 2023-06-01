@@ -1,0 +1,24 @@
+.category {
+ margin: 1rem;
+}
+
+.headerPage {
+ margin-bottom: 1rem;
+ font-size: 2rem;
+ font-weight: 800;
+ text-align: center;
+}
+
+.mainUl {
+ padding: 0;
+}
+
+.divPage {
+ text-align: center;
+}
+
+@media (min-width: 1024px) {
+ .category {
+  margin: 3rem;
+ }
+}

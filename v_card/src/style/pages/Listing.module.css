@@ -1,0 +1,153 @@
+.shareIcon {
+ cursor: pointer;
+ position: fixed;
+ top: 3%;
+ right: 5%;
+ z-index: 10;
+ border-radius: 50%;
+ width: 3rem;
+ height: 3rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: rgba(255, 255, 255, 0.5);
+}
+
+.carousel {
+ background: rgba(0, 0, 0, 0.3);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.images {
+ max-width: 100%;
+ height: auto;
+ border-radius: 25px;
+}
+
+.listingDetails {
+ margin: 1rem;
+}
+
+.listingName {
+ font-weight: 500;
+ font-size: 1.5rem;
+ margin-bottom: 0.3rem;
+ text-align: center;
+}
+
+.textCenter {
+ text-align: center;
+}
+
+.listingType {
+ padding: 0.25rem 0.5rem;
+ background-color: #00cc66;
+ color: #ffffff;
+ border-radius: 2rem;
+ display: inline;
+ font-weight: 600;
+ font-size: 1rem;
+ margin: auto;
+}
+
+.listingPrice {
+ margin-top: -0.1rem;
+ margin-right: 1rem;
+ font-weight: 600;
+ font-size: 1.1rem;
+ color: #00cc66;
+ margin-bottom: 0;
+ align-items: center;
+}
+
+.listingAddress {
+ margin-top: -0.5rem;
+ font-weight: 400;
+ text-align: center;
+}
+
+.listingDetailsList {
+ margin-top: 1rem;
+ padding: 0;
+ list-style-type: none;
+ text-align: center;
+}
+.listingDetailsList li {
+ margin: 0.5rem 0;
+ font-weight: 500;
+ opacity: 0.8;
+}
+
+.listingDesc {
+ padding: 0.25rem 0.5rem;
+ background-color: blue;
+ color: #ffffff;
+ border-radius: 2rem;
+ display: inline;
+ font-weight: 600;
+ font-size: 1rem;
+ margin-right: 1rem;
+}
+
+.descTitile {
+ font-weight: 500;
+ font-size: 1.3rem;
+ margin-bottom: 0.3rem;
+ margin-top: 2rem;
+ text-align: center;
+}
+
+.descText {
+ margin-top: 0;
+ font-weight: 400;
+ border-radius: 25px;
+ box-shadow: 0px 0px 2px 0px #ffffff;
+ padding: 5px 30px;
+ background: rgba(0, 0, 0, 0.3);
+}
+
+.locationText {
+ text-align: center;
+ font-weight: 400;
+ font-size: large;
+ margin-bottom: 0.2rem;
+}
+
+.googleMap {
+ height: 200px;
+ border: 0;
+ width: 100%;
+ border-radius: 25px;
+ box-shadow: 0px 0px 2px 0px #ffffff;
+ padding: 5px 5px;
+ background: rgba(0, 0, 0, 0.3);
+}
+
+.primaryButton {
+ cursor: pointer;
+ background: #00cc66;
+ border-radius: 1rem;
+ padding: 0.85rem 2rem;
+ color: #ffffff;
+ font-weight: 600;
+ font-size: 1.25rem;
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 2rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: rgba(0, 0, 0, 0.5);
+}
+
+.marginLeft {
+ margin-left: 1rem;
+}
+
+@media (min-width: 1024px) {
+ .listingDetails {
+  margin: 3rem;
+ }
+}

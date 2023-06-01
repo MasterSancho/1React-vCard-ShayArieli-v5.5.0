@@ -1,0 +1,103 @@
+.profile {
+ margin: 1rem;
+ margin-bottom: 2rem;
+}
+
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.pageHeader {
+ margin-bottom: 1rem;
+ font-size: 2rem;
+ font-weight: 800;
+ text-align: center;
+}
+
+.logOut {
+ cursor: pointer;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1rem;
+ font-weight: 600;
+ color: #ffffff;
+ background-color: #00cc66;
+ padding: 0.25rem 0.75rem;
+ border-radius: 1rem;
+}
+
+.profileCard {
+ background: rgba(216, 195, 195, 0.3);
+ color: #ffffff;
+ border-radius: 1rem;
+ padding: 0.3rem 1rem;
+ box-shadow: rgba(0, 0, 0, 0.2);
+ max-width: 600px;
+}
+
+.profileName {
+ all: unset;
+ margin: 0.3rem 0;
+ font-weight: 600;
+ width: 100%;
+}
+.profileNameActive {
+ all: unset;
+ margin: 0.3rem 0;
+ font-weight: 600;
+ width: 100%;
+ background-color: rgba(44, 44, 44, 0.1);
+}
+
+.profileEmail {
+ all: unset;
+ margin: 0.3rem 0;
+ font-weight: 600;
+ width: 100%;
+ font-weight: 500;
+}
+
+.profileEmailActive {
+ all: unset;
+ margin: 0.3rem 0;
+ font-weight: 600;
+ width: 100%;
+ font-weight: 500;
+ background-color: rgba(44, 44, 44, 0.1);
+}
+
+.createListing {
+ background: rgba(216, 195, 195, 0.3);
+ border-radius: 1rem;
+ padding: 0.25rem 1rem;
+ box-shadow: rgba(0, 0, 0, 0.2);
+ margin: auto;
+ margin-top: 2rem;
+ font-weight: 600;
+ max-width: 500px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.marginY {
+ margin-top: 0.25rem;
+ margin-bottom: 0.25rem;
+}
+
+.listingText {
+ margin-top: 2rem;
+ font-weight: 600;
+ text-align: center;
+}
+
+.listingsList {
+ margin-left: -2.1rem;
+}
+
+@media (min-width: 1024px) {
+ .profile {
+  margin: 3rem;
+ }
+}

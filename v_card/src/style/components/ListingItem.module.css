@@ -1,0 +1,76 @@
+.li {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 1rem;
+ position: relative;
+ border-radius: 25px;
+ box-shadow: 0px 0px 2px 0px #ffffff;
+ padding-right: 0.2rem;
+ background: rgba(0, 0, 0, 0.3);
+ height: 150px;
+}
+
+.liLink {
+ display: contents;
+}
+
+.liListImg {
+ width: 33%;
+ height: 100px;
+ border-radius: 1.5rem;
+ object-fit: cover;
+}
+
+.liListDiv {
+ width: 66%;
+ margin-top: 1rem;
+ text-align: right;
+}
+
+.liListDivP {
+ font-weight: 600;
+ font-size: 1.25rem;
+ margin: 0;
+}
+
+.liListDivP_P {
+ font-weight: 600;
+ font-size: 0.9rem;
+ opacity: 0.8;
+ margin-bottom: 0;
+}
+
+.liListDivP_P_P {
+ margin-top: -0.1rem;
+ margin-right: 1rem;
+ font-weight: 600;
+ font-size: 1.1rem;
+ color: #00cc66;
+ margin-bottom: 0;
+ align-items: center;
+}
+
+.lineHeight {
+ line-height: 0.9;
+}
+
+.liListDivDivPSpan {
+ font-weight: 500;
+ font-size: 0.9rem;
+ margin-right: 0.5rem;
+}
+
+.liSvg {
+ cursor: pointer;
+ position: absolute;
+ top: 33%;
+ left: 1%;
+}
+
+.liSvg_Svg {
+ cursor: pointer;
+ position: absolute;
+ top: 33%;
+ left: 40px;
+}

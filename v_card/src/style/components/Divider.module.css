@@ -1,0 +1,14 @@
+.div {
+ padding-top: 1.5rem;
+ padding-bottom: 1.5rem;
+ text-align: center;
+}
+
+.hr {
+ margin-top: 1.5rem;
+ border-top: 5px solid white;
+}
+
+.textRed {
+ color: #ff0000;
+}

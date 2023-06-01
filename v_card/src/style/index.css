@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+ box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+ display: none;
+}
+
+body {
+ font-family: 'Montserrat', sans-serif;
+ background-color: #f2f4f8;
+ margin: auto;
+ box-sizing: border-box;
+ max-width: 600px;
+ background-image: url(../../public/assets/images/background.jpg);
+ background-attachment: fixed;
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100%;
+
+ -webkit-background-image: url(../../public/assets/images/background.jpg); /* Safari, Chrome */
+ -webkit-background-attachment: fixed;
+ -webkit-background-position: center center;
+ -webkit-background-repeat: no-repeat;
+
+ -moz-background-image: url(../../public/assets/images/background.jpg); /* Firefox */
+ -moz-background-attachment: fixed;
+ -moz-background-position: center center;
+ -moz-background-repeat: no-repeat;
+
+ -o-background-image: url(../../public/assets/images/background.jpg); /* Opera */
+ -o-background-attachment: fixed;
+ -o-background-position: center center;
+ -o-background-repeat: no-repeat;
+}
+
+.container {
+ width: 100%;
+ padding-right: calc(1.5rem * 0.5);
+ padding-left: calc(1.5rem * 0.5);
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.row {
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: calc(-1 * 0);
+ margin-right: calc(-0.5 * 1.5rem);
+ margin-left: calc(-0.5 * 1.5rem);
+}
+
+.row > * {
+ flex-shrink: 0;
+ width: 100%;
+ max-width: 100%;
+ padding-right: calc(1.5rem * 0.5);
+ padding-left: calc(1.5rem * 0.5);
+ margin-top: 0;
+}
+
+.col {
+ flex: 1 0 0%;
+}
+
+.fluid {
+ max-width: 100%;
+ height: auto;
+}
+
+a {
+ text-decoration: none;
+ display: block;
+ color: #000000;
+}
+
+button {
+ outline: none;
+ border: none;
+}
+
+.imgModal {
+ background-color: rgb(97, 87, 87);
+}
+
+@media (min-width: 576px) {
+ .container {
+  max-width: 540px;
+ }
+}
+@media (min-width: 768px) {
+ .container {
+  max-width: 720px;
+ }
+}
+@media (min-width: 992px) {
+ .container {
+  max-width: 960px;
+ }
+}
+@media (min-width: 1200px) {
+ .container {
+  max-width: 1140px;
+ }
+}
+@media (min-width: 1400px) {
+ .container {
+  max-width: 1320px;
+ }
+}

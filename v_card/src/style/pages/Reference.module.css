@@ -1,0 +1,21 @@
+.reference {
+ box-sizing: border-box;
+ height: 100vh;
+ max-width: 600px;
+ text-align: center;
+}
+
+.referenceDiv {
+ width: 100%;
+ padding-top: 3rem;
+ padding-right: calc(1.5rem * 0.5);
+ padding-left: calc(1.5rem * 0.5);
+ margin-right: auto;
+ margin-left: auto;
+}
+
+.image {
+ width: 80%;
+ max-width: 400px;
+ margin-bottom: 1.5rem;
+}
